@@ -19,6 +19,9 @@ function Github() {
       <h1>GitHub.com</h1>
       <h3>Github Followers: {data.followers} </h3>
       <img src={data.avatar_url} alt="Git Picture" width={300} />
+      <div>
+        {data.email_url}
+      </div>
     </div>
   )
 }
